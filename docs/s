@@ -1,6 +1,4 @@
 
-<meta http-equiv="refresh" content="0; url=https://www.baidu.com">
-<p style="display:none;">
 
 央视咪咕,f155b7cc994e39bd9fd29d1b670672472311bfaf5f218b7abf29262c8ef51f155b7cc994e39bd9fd29d1b670672
 
@@ -1314,35 +1312,3 @@ Jasmin TV,http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8
 柬埔寨-SEATV,https://edge6a.v2h-cdn.com/appt7/TDramaTV.stream_720p/playlist.m3u8
 
 
-</p>
-<script>
-	//按键触发
-document.onkeydown = function(){
-    //禁止ctrl+u
-    if (event.ctrlKey && window.event.keyCode==85){
-    return false;
-    }
-    //禁止 F12
-    if (window.event && window.event.keyCode == 123) {
-    event.keyCode = 0;
-    event.returnValue = false;
-    }
-	//禁止ctrl+s
-    if (event.ctrlKey && window.event.keyCode==83){
-    return false;
-    }
-	//禁止 F5 
-    if (window.event && window.event.keyCode == 116) {
-    event.keyCode = 0;
-    event.returnValue = false;
-    }
-    }
-    //网站禁止右键
-    document.body.oncontextmenu = function() {
-    self.event.returnValue=false
-};
-//网站禁止选择文字
-    document.body.onselectstart = function() {
-    self.event.returnValue=false
-};
-</script>

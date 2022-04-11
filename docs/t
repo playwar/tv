@@ -183,7 +183,8 @@ CETV-4,http://111.63.117.13:6060/030000001000/G_CETV-4/G_CETV-4.m3u8
 郑州5,http://live.zztv.tv/zztv5/sd/live.m3u8
 郑州6,http://live.zztv.tv/zztv6/sd/live.m3u8
 
-湖南,"genre"
+湖南,#genre#
+
 
 湖南经视,http://124.232.233.15:6610/000000001001/201600020002/1400.m3u8?m3u8_level=2
 湖南都市,http://124.232.233.15:6610/000000001001/201600020003/1400.m3u8?m3u8_level=2

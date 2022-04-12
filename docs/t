@@ -74,6 +74,11 @@ CETV-4,http://111.63.117.13:6060/030000001000/G_CETV-4/G_CETV-4.m3u8
 河北经济,http://live2.plus.hebtv.com/jjshx/playlist.m3u8#https://jwplay.hebyun.com.cn/live/hbjjtv/1500k/tzwj_video.m3u8
 河北都市,http://live5.plus.hebtv.com/hbdsx/hd/live.m3u8
 河北影视,http://live6.plus.hebtv.com/hbysx/hd/live.m3u8#https://jwplay.hebyun.com.cn/live/hbystv/1500k/tzwj_video.m3u8
+
+石家庄新闻,http://pluslive1.sjzntv.cn/xmzh/playlist.m3u8
+石家庄都市,http://pluslive1.sjzntv.cn/dushi/playlist.m3u8
+石家庄生活,http://pluslive1.sjzntv.cn/shenghuo/playlist.m3u8
+石家庄娱乐,http://pluslive1.sjzntv.cn/yule/playlist.m3u8
 河北公共,http://live7.plus.hebtv.com/hbggx/hd/live.m3u8
 邢台综合,http://a.xttv.top/xttv/5ebe09cb3d1a0f3f3d062e99c78175a0.m3u8
 邢台生活,http://a.xttv.top/xttv/d0586743dc68918f808f28b8bc90c737.m3u8
@@ -154,6 +159,18 @@ CETV-4,http://111.63.117.13:6060/030000001000/G_CETV-4/G_CETV-4.m3u8
 云南卫视,http://39.135.34.150:8080/000000001000/1000000002000024694/1.m3u8?I
 陕西卫视,http://39.135.34.150:8080/000000001000/1000000002000007495/1.m3u8?I
 
+北京,"genre"
+北京卫视,http://pull.brtvcloud.com/brtv8kapptv/brtv8kappweishi.m3u8
+北京文艺,http://pull.brtvcloud.com/brtv8kapptv/brtv8kappwenyi.m3u8#http://221.179.136.134:443/PLTV/88888888/224/3221226440/1.m3u8#http://221.179.136.134:443/PLTV/88888888/224/3221226440/1.m3u8
+北京科教,http://pull.brtvcloud.com/brtv8kapptv/brtv8kappkejiao.m3u8
+北京影视,http://pull.brtvcloud.com/brtv8kapptv/brtv8kappyingshi.m3u8
+北京财经,http://pull.brtvcloud.com/brtv8kapptv/brtv8kappcaijing.m3u8
+北京生活,http://pull.brtvcloud.com/brtv8kapptv/brtv8kappshenghuo.m3u8
+北京青年,http://pull.brtvcloud.com/brtv8kapptv/brtv8kappqingnian.m3u8
+北京新闻,http://pull.brtvcloud.com/brtv8kapptv/brtv8kappxinwen.m3u8
+北京国际,http://221.179.136.146:443/PLTV/88888888/224/3221226510/1.m3u8
+北京卡酷少儿,http://pull.brtvcloud.com/brtv8kapptv/brtv8kappkaku.m3u8#http://120.84.96.32:808/hls/55/index.m3u8#http://222.175.202.90:9901/tsfile/live/1017_1.m3u8#http://iptv.eatuo.com:9901/tsfile/live/1028_1.m3u8#http://222.175.202.90:9901/tsfile/live/1017_1.m3u8#http://iptv.eatuo.com:9901/tsfile/live/1028_1.m3u8
+北京冬奥纪实,http://39.135.55.105:6610/PLTV/88888888/224/3221225944/index.m3u8?servicetype=1
 山东,"genre"
 山东新闻,http://39.136.48.2:8089/PLTV/88888888/224/3221226077/index.m3u8
 山东齐鲁,http://39.136.48.2:8089/PLTV/88888888/224/3221226045/index.m3u8

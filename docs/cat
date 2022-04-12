@@ -470,6 +470,10 @@
     
   ],
   "lives":[
+    {"group":"redirect","channels": [ {"name":"redirect","urls": [ 
+"proxy://do=live&type=txt&ext=aHR0cHM6Ly9jMW4uY24vcHJveHlsaXZl"
+
+] } ] },
 {"group":"TV","channels":[
   {"name":"周杰伦","urls":["http://tx2play1.douyucdn.cn/live/7537296r6gj0ywjL.xs","http://dyscdnali1.douyucdn.cn/live/7537296r6gj0ywjL.flv"]},
   {"name":"牛叔电影","urls":["http://tx2play1.douyucdn.cn/live/2758565rXfu5x1d6_2000.xs","http://dyscdnali1.douyucdn.cn/live/2758565rXfu5x1d6_2000.flv"]},

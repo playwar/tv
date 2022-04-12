@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./utils/aes.js"></script>
+
+  <title>
+    
+
+  </title>
+
+<script type="text/javascript">
+
+//index.js
+//获取应用实例
+
+
+
+
+
+//十六位十六进制数作为秘钥
+var key = CryptoJS.enc.Utf8.parse("5de7e29919fad4d5");  
+//十六位十六进制数作为秘钥偏移量
+var iv = CryptoJS.enc.Utf8.parse('1234567890123456');  
+
+var str_aes_encode="";
+ var str_aes_decode="";
+  function onLoad () {
+
+
+
+    //aes加密
+     str_aes_encode = Encrypt('CCTV2财经,http://117.148.179.156/PLTV/88888888/224/3221232362/index.m3u8');
+
+console.log("加密",str_aes_encode);
+
+
+
+
+    //aes解密
+     str_aes_decode = Decrypt(str_aes_encode);
+console.log("解密",str_aes_decode);
+
+     
+
+
+  }
+  function Encrypt (word) {
+    var srcs = CryptoJS.enc.Utf8.parse(word);
+    var encrypted = CryptoJS.AES.encrypt(srcs, key, { iv: iv, mode: CryptoJS.mode.ECB, padding: CryptoJS.pad.Pkcs7 });
+    //返回大写十六进制加密结果
+    return encrypted.ciphertext.toString().toUpperCase();
+  }
+
+   function Decrypt (word) {
+    var encryptedHexStr = CryptoJS.enc.Hex.parse(word);
+    var srcs = CryptoJS.enc.Base64.stringify(encryptedHexStr);
+    var decrypt = CryptoJS.AES.decrypt(srcs, key, { iv: iv, mode: CryptoJS.mode.ECB, padding: CryptoJS.pad.Pkcs7 });
+    var decryptedStr = decrypt.toString(CryptoJS.enc.Utf8);
+    return decryptedStr.toString();
+  }
+
+
+onLoad();
+
+$(document).ready(function(){
+  
+  $("#content").text(str_aes_decode);
+});
+</script>
+</head>
+<body>
+
+<div id="content"></div>
+
+</body>
+</html>

@@ -1693,6 +1693,15 @@ Discovery,http://iptv.tvfix.org/hls/discovery.m3u8
 国家地理,http://iptv.tvfix.org/hls/natlgeo.m3u8
 国家地理(第2声道),http://iptv.tvfix.org/hls/natlgeo2.m3u8
 Star Sports,http://iptv.tvfix.org/hls/starsports.m3u8
+
+米国,#genre#
+USA-Syfy,http://51.89.98.62:8080/japones/japones/20255$FHD
+USA-Syfy,http://51.89.98.62:8080/japones/japones/41$HD
+USA-Syfy,http://51.89.98.62:8080/japones/japones/40$SD
+USA-Syfy,http://tv.plusk.xyz:28000/gigitbl/2DKYzhvEke/117248$FHD
+USA-Syfy,http://tv.plusk.xyz:28000/gigitbl/2DKYzhvEke/65421$HD
+USA-Syfy,http://tv.plusk.xyz:28000/gigitbl/2DKYzhvEke/1577$SD
+
 关于软件,#genre#
 关于软件G版,https://pan.bilnn.cn/api/v3/file/sourcejump/WXY36lF9/BmxLRXYpOpyZ6yizO1Zc8teU2C5x1OnzS95WPZQFe7w*
 欧德莱福,https://pan.bilnn.cn/api/v3/file/sourcejump/Nld8QxfW/KnvxiuzYN9SZgWwPAtGmZRMYh4HevXU30Lajol9bS5w*

@@ -931,7 +931,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://cniop.github.io/t/t",
+      "url": "https://cdn.jsdelivr.net/gh/cniop/t@m/docs/t",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
